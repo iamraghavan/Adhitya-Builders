@@ -15896,6 +15896,7 @@ background: #000;
 @media only screen and (max-width:768px){
 	.mission-mid {
 		height: 447px;
+		display: none;
 	}
 }
 
