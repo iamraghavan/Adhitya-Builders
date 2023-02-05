@@ -479,6 +479,26 @@
 <!-- SWITCHER FUCTIONS  -->
 <!-- REVOLUTION JS FILES -->
 
+
+<script>
+    let cache = {};
+
+const setCache = (key, value) => {
+  cache[key] = value;
+}
+
+const getCache = (key) => {
+  return cache[key];
+}
+
+const clearCache = () => {
+  cache = {};
+}
+
+setInterval(clearCache, 600000);
+
+</script>
+
 <script src="./plugins/revolution/revolution/js/jquery.themepunch.tools.min.js"></script>
 <script src="./plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js"></script>
 
